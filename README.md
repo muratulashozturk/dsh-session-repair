@@ -27,6 +27,8 @@ dry run: 7 items need repair. Re-run with --apply to write.
 After `--apply` and one restart of DeepSeek Harness, the project lists every
 session again.
 
+PoC: I've moved from Windows to Ubuntu GNOME. I've replaced all the cwd's inside the jsonl files and workspace, session JSON files. If you would like to move from Windows to Linux, you need to change all the working directories to the Linux path.
+
 ---
 
 ## The symptom
