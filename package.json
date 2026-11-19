@@ -1,0 +1,32 @@
+{
+  "name": "dsh-session-repair",
+  "version": "1.0.0",
+  "description": "Restore DeepSeek Harness sessions that disappeared from the sidebar after a home-directory migration",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "dsh-session-repair": "bin/dsh-session-repair.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.15"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "verify": "node bin/dsh-session-repair.mjs --verify"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "session",
+    "zstd",
+    "recovery",
+    "migration"
+  ]
+}
